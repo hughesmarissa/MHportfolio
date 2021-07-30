@@ -1,0 +1,28 @@
+body{
+    width: 100%;
+    background-color: rgb(66, 65, 65);
+    /*#16F3D3 teal 
+    #1442DB blue 
+    #B422F2 purple 
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lato', sans-serif;        */
+
+}
+nav{
+    font-family: 'Dancing Script', cursive;
+}
+.nav-link{
+    font-family: 'Lato', sans-serif;
+}
+
+.intro-container{
+    height: 1000px;
+    background:url("/imgs/beSerious.jpg") no-repeat 0 0;
+}
+a{
+    color: gray;
+}
+a:hover{
+    font-weight: bold;
+    color: #B422F2;
+}

@@ -12,113 +12,120 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <!-- FONT AWESONE LINK-->
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato&display=swap" rel="stylesheet" />
-
+    <script src="https://kit.fontawesome.com/2b12307a36.js" crossorigin="anonymous"></script>
     <title>Marissa Hughes Portfolio</title>
 </head>
-<body>
-<!--NAVIGATION -->
-<nav class="navbar fixed-top navbar-expand-sm bg-light">
-    <a class="navbar-brand text-secondary" href="#"><h1>Marissa Hughes</h1></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="fa fa-bars fa-lg"></span>
-        </button>
+
+<header>
+  <!--NAVIGATION -->
+  <nav class="navbar fixed-top navbar-expand-sm bg-light">
+    <a class="navbar-brand text-secondary" href="#">
+      <h1 class="d-none d-md-block d-lg-block d-xl-block">Marissa Hughes</h1>
+      <i class="fab fa-connectdevelop d-block d-sm-block d-md-none"></i>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="fa fa-bars fa-lg"></span>
+    </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav pr-5 ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                ABOUT
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                SKILLS
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                PROJECTS
-                </a>
-            </li>
-        </ul>
+      <ul class="navbar-nav pr-5 ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+          ABOUT
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+          SKILLS
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+          PROJECTS
+          </a>
+        </li>
+      </ul>
     </div>
-</nav>
-
-<!-- INTRO -->
-<section alt="Marissa Hughes: Aspiring Front-end Developer">
-    <div class="intro-container cointainer-fluid"></div>    
-</section>
-
+  </nav>
+</header>
+  <body>
+  <!-- INTRO -->
+  <section alt="Marissa Hughes: Aspiring Front-end Developer" class="introduction d-block pt-2">
+    <div class="pt-3">
+      <img src="/imgs/beSerious.jpg" alt="Marissa Hughes" class="w-100 img-fluid d-none d-md-block d-lg-block d-xl-block">
+    </div>
+      <div class="d-block d-sm-none d-inline-flex pl-2 pt-2 author-info">
+        <img src="/imgs/faceToShare.jpg" alt="Marissa Hughes Up Close" class="small-photo" />
+        <span class="pl-1 align-self-center">
+          Marissa Hughes &middot Future Front-end Developer<br>
+          August 2, 2021<br>
+        </span>
+      </div>     
+  </section>
+<!-- ABOUT ME -->
+<div class="row container-fluid w-100 about about-shadow">
+  <div class="col-lg-12 col-sm-12 text-center ">
+    <h1 class="pt-3">About</h1><hr />
+      <p class="about pb-5">
+        Hi, My name is Marissa and I am an aspiring Front-end Developer based in Portland, Oregon. <br>
+        I craft my beautiful web pages using HTML5, CSSS and JavaScript or jQuery. 
+        My skills are still being fine-tuned as I am still learning.
+      </p>
+    </div>
+  </div>
+</div>
 <!-- SKILLS/TIMELINE LEFT SIDE -->
-<section alt="Marissa Hughes Education & Career Timeline" class="d-none d-sm-block">
-<div class="timeline-section">
-<div class="timeline">
-    <div class="timeline-intro"><h4 class="text-center">Timeline</h4></div><br>
-    <div class="entry">
-        <div class="title">
+<section alt="Marissa Hughes Education & Career Timeline" class="d-none d-sm-none d-md-block">
+  <div class="timeline-section">
+    <div class="timeline">
+      <div class="timeline-intro"><h4 class="text-center">Timeline</h4></div><br>
+        <div class="entry">
+          <div class="title">
             <h3>2021 - Present</h3>
             <p>Title, Company</p>
+          </div>
+          <div class="body">
+            <p>Voluptatibus veniam ea reprehenderit atque reiciendis non laborum adipisci ipsa pariatur omnis.</p>
+          </div>
         </div>
-        <div class="body">
-        <p>Voluptatibus veniam ea reprehenderit atque reiciendis non laborum adipisci ipsa pariatur omnis.</p>
-        <ul class="body-ul">
-            <li>Rerum sit libero possimus amet excepturi</li>
-            <li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
-            <li>Modi aut dolores dignissimos sequi sit ut aliquid molestias deserunt illo</li>
-        </ul>
+        <div class="entry">
+          <div class="title">
+            <h3>2010 - Present</h3>
+            <p>Title, Company</p>
+          </div>
+          <div class="body">
+            <p>Voluptatibus veniam ea reprehenderit atque reiciendis non laborum adipisci ipsa pariatur omnis.</p>
+          </div>
         </div>
-    </div>
-    <div class="entry">
-      <div class="title">
-        <h3>2010 - Present</h3>
-        <p>Title, Company</p>
-      </div>
-      <div class="body">
-        <p>Voluptatibus veniam ea reprehenderit atque reiciendis non laborum adipisci ipsa pariatur omnis.</p>
-        <ul class="body-ul">
-          <li>Rerum sit libero possimus amet excepturi</li>
-          <li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
-          <li>Modi aut dolores dignissimos sequi sit ut aliquid molestias deserunt illo</li>
-        </ul>
-      </div>
-    </div>
-    <div class="entry">
-      <div class="title">
-        <h3>2009 - 2010</h3>
-        <p>Title, Company</p>
-      </div>
-      <div class="body">
-        <p>Voluptatibus veniam ea reprehenderit atque reiciendis non laborum adipisci ipsa pariatur omnis.</p>
-        <ul class="body-ul">
-          <li>Rerum sit libero possimus amet excepturi</li>
-          <li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
-          <li>Modi aut dolores dignissimos sequi sit ut aliquid molestias deserunt illo</li>
-        </ul>
+        <div class="entry">
+          <div class="title">
+            <h3>2009 - 2010</h3>
+            <p>Title, Company</p>
+          </div>
+          <div class="body">
+            <p>Voluptatibus veniam ea reprehenderit atque reiciendis non laborum adipisci ipsa pariatur omnis.</p>
+          </div>
+        </div>
+        <div class="entry">
+          <div class="title">
+            <h3>2006 - 2008</h3>
+            <p>Title, Company</p>
+          </div>
+          <div class="body">
+            <p>Voluptatibus veniam ea reprehenderit atque reiciendis non laborum adipisci ipsa pariatur omnis.</p>
+          </div>  
+        </div>
       </div>
     </div>
-    <div class="entry">
-      <div class="title">
-        <h3>2006 - 2008</h3>
-        <p>Title, Company</p>
-      </div>
-      <div class="body">
-        <p>Voluptatibus veniam ea reprehenderit atque reiciendis non laborum adipisci ipsa pariatur omnis.</p>
-        <ul class="body-ul">
-          <li>Rerum sit libero possimus amet excepturi</li>
-          <li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
-          <li>Modi aut dolores dignissimos sequi sit ut aliquid molestias deserunt illo</li>
-        </ul>
-      </div>
-    </div>
-    </div>
-</div>
+  </div>
 </section>
     <!-- PROJECTS -->
-    <!-- -->
+    
     <!-- -->
     <!-- -->
     <!-- -->
     <!-- -->
     <!-- LINKS -->
+    
     <!-- FOOTER -->
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->

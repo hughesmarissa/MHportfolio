@@ -21,7 +21,7 @@
   <nav class="navbar fixed-top navbar-expand-sm bg-light">
     <a class="navbar-brand text-secondary" href="#">
       <h1 class="d-none d-md-block d-lg-block d-xl-block">Marissa Hughes</h1>
-      <i class="fab fa-connectdevelop d-block d-sm-block d-md-none"></i>
+      <span class="d-block d-sm-block d-md-none">Welcome to my page</span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="fa fa-bars fa-lg"></span>
@@ -29,17 +29,17 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav pr-5 ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="#about">
           ABOUT
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="#skills">
           SKILLS
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="#projects">
           PROJECTS
           </a>
         </li>
@@ -62,19 +62,31 @@
       </div>     
   </section>
 <!-- ABOUT ME -->
-<div class="row container-fluid w-100 about about-shadow">
-  <div class="col-lg-12 col-sm-12 text-center ">
-    <h1 class="pt-3">About</h1><hr />
-      <p class="about pb-5">
-        Hi, My name is Marissa and I am an aspiring Front-end Developer based in Portland, Oregon. <br>
-        I craft my beautiful web pages using HTML5, CSSS and JavaScript or jQuery. 
-        My skills are still being fine-tuned as I am still learning.
+<div id="about" class="jumbotron container-fluid text-center">
+  <div class="heading">
+    <h3>ABOUT</h3>
+    <div class="heading-underline mb-2"></div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12 col-sm-12 text-center">
+      <p>
+        Hi, I'm Marissa! My skills are in the process of being fine-tuned as I am still learning. 
+        I aim to write clean code that's easy to reason with and thoroughly tested to create 
+        things that benefit users in some way. 
+        <br><br>
+        <!-- I craft my beautiful web pages using HTML5, CSSS and JavaScript or jQuery. -->
+        Throughout my learning experience the value of thoughtful solutions to challenging problems ranks 
+        highly in my dedication to continue learning more. 
+        <!--  <br><br>
+        Does this sound like someone you could use on 
+        your team? Get in touch and let me know what you're working on.-->
       </p>
     </div>
   </div>
 </div>
+      
 <!-- SKILLS/TIMELINE LEFT SIDE -->
-<section alt="Marissa Hughes Education & Career Timeline" class="d-none d-sm-none d-md-block">
+<section id="skills" alt="Marissa Hughes Education & Career Timeline" class="d-none d-sm-none d-md-block">
   <div class="timeline-section">
     <div class="timeline">
       <div class="timeline-intro"><h4 class="text-center">Timeline</h4></div><br>
@@ -118,8 +130,68 @@
     </div>
   </div>
 </section>
-    <!-- PROJECTS -->
-    
+   
+<!-- PROJECTS -->
+<div  id="projects" class="jumbotron container-fluid text-center">
+  <div class="heading">
+    <h3>PROJECTS</h3>
+    <div class="heading-underline mb-3"></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6 col-md-3 col-lg-3">
+      <a href="#">
+        <div class="feature">
+          <div class="circle fa-2x">
+            <i class="fas fa-mobile-alt fa-inverse"></i>
+          </div>
+          <h3>Excursion</h3>
+          <p>
+            This project was built with a responsive layout without Bootstrap.
+          </p>
+        </div>
+      </a>
+    </div>
+    <div class="col-sm-6 col-md-3 col-lg-3">
+      <a href="#">
+        <div class="feature">
+          <div class="circle fa-2x">
+            <i class="fas fa-leaf fa-inverse"></i>
+          </div>
+          <h3>Tea Time</h3>
+          <p>
+            
+          </p>
+        </div>
+      </a>
+    </div>
+    <div class="col-sm-6 col-md-3 col-lg-3">
+      <a href="#">
+        <div class="feature">
+          <div class="circle fa-2x">
+            <i class="fas fa-fist-raised fa-inverse"></i>
+          </div>
+          <h3>Skater Resources</h3>
+          <p>
+            Responsive webpage built to include video and responsive elements. 
+          </p>
+        </div>
+      </a>
+    </div>
+    <div class="col-sm-6 col-md-3 col-lg-3">
+      <a href="#">
+        <div class="feature">
+          <div class="circle fa-2x">
+            <i class="fas fa-school fa-inverse"></i>
+          </div>
+          <h3>Academy Page</h3>
+          <p>
+            Informational site for Skaters in the Portland area.
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
     <!-- -->
     <!-- -->
     <!-- -->
@@ -132,5 +204,6 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
